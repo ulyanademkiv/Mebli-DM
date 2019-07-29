@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.row:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.row {display: inline-block;}
+/*start commented backslash hack \*/
+* html .row {height: 1%;}
+.row {display: block;}
+/*close commented backslash hack */
+.header {    
+    background-color: mediumpurple;
+    height: 200px;
+} 
+.content {
+    background-image: url(tmb_130726_6928.jpg);
+    background-repeat: no-repeat;
+    background-color: cornflowerblue;
+    background-position: center;
+    width: 70%;
+    min-height: 500px;
+    float: left;
+}
+.sidebar {
+    background-color: beige;
+    width: 15%;
+    min-height: 500px;
+    float: left;
+}
+.sidebar {
+    background-color: beige;
+    width: 15%;
+    min-height: 500px;
+    float: left;
+}
+.footer {
+    background-color: mediumpurple;
+    height: 200px;
+} 
